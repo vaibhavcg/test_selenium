@@ -1,3 +1,5 @@
+package com.practice.selenium;
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.apache.commons.lang3.builder.ToStringExclude;
 import org.junit.After;

@@ -1,4 +1,4 @@
-package com.practice;
+package com.practice.corejava;
 
 import org.junit.Test;
 
