@@ -31,7 +31,12 @@ public class StreamAPIEmployeeExample {
 class Employee{
     private String fullName;
     private String empId;
-
+    private EmployeeAddress address;
+    public Employee(String fullName, String empId, EmployeeAddress address) {
+        this.fullName = fullName;
+        this.empId = empId;
+        this.address = address;
+    }
     public String getFullName() {
         return fullName;
     }
@@ -44,13 +49,9 @@ class Employee{
         return address;
     }
 
-    private EmployeeAddress address;
 
-    public Employee(String fullName, String empId, EmployeeAddress address) {
-        this.fullName = fullName;
-        this.empId = empId;
-        this.address = address;
-    }
+
+
 }
 
 class EmployeeAddress{
